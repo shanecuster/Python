@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 
 print("Welcome to my random number game!")
@@ -21,7 +23,8 @@ else:
 	print("Please enter a number.")
 	quit()
 
-random_number = randint(0, top_of_range)
+random_number = random.randint(0, top_of_range)
+number_of_guesses = 0
 
 while True:
 	number_of_guesses += 1
@@ -45,4 +48,3 @@ while True:
 		print("That is below the random number,")
 
 print("It took you", number_of_guesses, "To guess the correct random number!")
-
