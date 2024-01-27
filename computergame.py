@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 print("Welcome to my computer acronym game.")
 
 play = input("Would you like to play? ")
@@ -40,8 +42,8 @@ if answer.lower() == "power supply unit":
 else: 
 	print("Sorry, that is incorrect!")
 
-print("You got " + str(score) + " questions correct!"
+print("You got " + str(score) + " questions correct!")
 
-print("You got " + str((score/4) * 100) + "%."
+print("You got " + str((score/4) * 100) + "%.")
 
 print("Thank you for Playing!")
