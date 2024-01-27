@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 
 user_wins = 0
